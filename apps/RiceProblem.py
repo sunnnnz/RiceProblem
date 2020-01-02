@@ -14,7 +14,7 @@ import time
 
 from dingtalkchatbot.chatbot import DingtalkChatbot
 
-webhook = 'https://oapi.dingtalk.com/robot/send?access_token=744158b8fe11e364d96d5d534a27520b1ea5cb7689a445c3eb5c6eaf2416f7d4'
+webhook = '你自己的钉钉机器人webhook链接'
 
 with open('DiningDestination.txt', 'r+', encoding='utf-8') as f:
     destination_list = [str(destination).replace('\n', '') for destination in f]
